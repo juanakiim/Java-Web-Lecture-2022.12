@@ -25,16 +25,18 @@ public class ThirdServlet extends HttpServlet {
 		response.setContentType("text/html; charset=utf-8");
 		PrintWriter out = response.getWriter();
 		out.print("<!DOCTYPE html>");
-		out.print("<html lang=\"en\">");
-		out.print("<head>"); 
-		out.print("<meta charset=\"UTF-8\">");
-		out.print("<title>Insert title here</title>");
+		out.print("<html lang=\"ko\">");
+		out.print("<head>");
+		out.print("	<meta charset=\"UTF-8\">");
+		out.print("	<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">");
+		out.print("	<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">");
+		out.print("	<title>Document</title>");
 		out.print("</head>");
 		out.print("<body>");
-		out.print("<h1>안녕하세요?</h1>");
-		out.print("<h1>Hello world</h1>");
-		out.print("</body>");		
-		out.print("</html>");		
+		out.print("	<h1>Hello World!!!</h1>");
+		out.print("	<h1>안녕하세요?</h1>");
+		out.print("	</body>");
+		out.print("</html>");	
 	}
 
 	/**
